@@ -1,0 +1,59 @@
+.bg-img {
+    background: url("pm-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .outer-box {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .custom-card {
+    background: #f1f1f1;
+    box-shadow: rgba(3, 214, 251, 0.989) 0px 1px 3px,
+      rgba(0, 127, 246, 0.956) 0px 1px 2px;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 1px;
+  }
+  .logo-img {
+    box-shadow: rgba(181, 181, 181, 0.599) 0px 1px 3px,
+      rgba(229, 230, 232, 0.956) 0px 1px 2px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .login-btn{
+      background: #26ede6;
+      color: #fff;
+      padding: 10px 40px;
+      box-shadow: rgba(181, 181, 181, 0.599) 0px 1px 3px,
+      rgba(229, 230, 232, 0.956) 0px 1px 2px;
+      border: none;
+      border-radius: 5px;
+      justify-self: center;
+      font-weight: bolder;
+      font-size: 20px;
+  }
+  .forget-tag{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  @media ( max-width: 768px ) {
+      .custom-card {
+          background: #f1f1f1;
+          box-shadow: rgba(3, 214, 251, 0.989) 0px 1px 3px,
+            rgba(0, 127, 246, 0.956) 0px 1px 2px;
+          width: 100%;
+          margin: 0px 20px;
+  
+        }
+  }

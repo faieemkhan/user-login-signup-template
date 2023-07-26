@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="row g-0">
+
+        <div class="col-md-6">
+            <div class="outer-box">
+                <div class="w-sm-100 py-sm-2 custom-card">
+                    <img src="./pm-bg-img.jpg" class="logo-img" width="120" height="70" alt="logo">
+                    <h2 class="text-center text-info">Sign Up</h2>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-4">
+                                    <label for="firstName">First Name</label>
+                                    <input class="w-full" type="text" id="firstName" formControlName="firstName"
+                                        autofocus />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-2">
+                                    <label for="lastName">Last Name</label>
+                                    <input class="w-full" type="text" id="lastName" formControlName="lastName" autofocus />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-4">
+                                    <label for="email">Email</label>
+                                    <input class="w-full" type="email" id="email" formControlName="email" autofocus />
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <div class="form-group">
+                                    <label for="email">Username</label>
+                                    <input class="w-full" type="text" id="username" formControlName="username" disabled autofocus />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-4">
+                                    <label for="password">Password</label>
+                                    <input class="w-full" type="password" id="password" formControlName="password" autofocus />
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <div class="form-group">
+                                    <label for="confirmpassword">Confirm Password</label>
+                                    <input class="w-full" type="password" id="confirmpassword" formControlName="confirmpassword"  autofocus />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+
+                        <div class="forget-tag">
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Agree with
+                                    <a href="#">terms & Condition</a>
+                                </label>
+                            </div>
+                            <p class="text-end text-info">
+                                <a href="" class="text-decoration-none">Active User</a>
+                            </p>
+                        </div>
+                        <p class="text-center">
+                            <button type="submit" class="text-center login-btn">Sign Up</button>
+                        </p>
+
+                        <hr class="w-100 px-2">
+                        <p class="text-end text-info">
+                            Have You already an Account ?
+                            <span>
+                                <a href="#">Login</a>
+                            </span>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="bg-img">
+                <h1 class="text-center text-info pt-3">Register You Self!</h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
