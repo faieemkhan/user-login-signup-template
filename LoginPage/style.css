@@ -1,3 +1,11 @@
+.bg-red{
+  background: rgba(3, 214, 251, 0.989);
+}
+.border{
+  border-top-right-radius: 400px;
+  border-width: none;
+  background: white;
+}
 .bg-img {
     background: url("pm-bg-img.jpg");
     background-repeat: no-repeat;
@@ -8,7 +16,8 @@
   .outer-box {
     display: flex;
     justify-content: center;
-  
+
+    border-top-right-radius: 40px;
   }
   .custom-card {
     background: #f1f1f1;
